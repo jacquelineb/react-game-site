@@ -1,21 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import './Header.css';
 
 function Header() {
   return (
     <header>
-      <nav>
-        <div className='site-links'>
-          <Link className='nav-link' to='/'>
-            Home
-          </Link>
-          <Link className='nav-link' to='/faq'>
-            FAQ
-          </Link>
-          <Link className='nav-link' to='/about'>
-            Our Team
-          </Link>
-        </div>
+      <nav className='nav'>
+        <NavLink exact to='/' className='nav-link' activeClassName='active'>
+          Home
+        </NavLink>
+        <NavLink to='/faq' className='nav-link' activeClassName='active'>
+          FAQ
+        </NavLink>
+        <NavLink to='/about' className='nav-link' activeClassName='active'>
+          Developers
+        </NavLink>
       </nav>
     </header>
   );

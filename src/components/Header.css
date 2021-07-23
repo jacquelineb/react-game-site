@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'GoldenSun';
+  src: local('GoldenSun'), url(../fonts/GoldenSun.ttf) format('truetype');
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: goldenrod;
+  font-family: GoldenSun;
+  text-decoration: none;
+}
+
+.active {
+  color: brown;
+  text-decoration: underline;
+}
