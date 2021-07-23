@@ -10,21 +10,21 @@
     "id": 1,
     "topic": "Explore the world",
     "description": "Uncover a map filled with unique biomes, djinn, characters, and enemies.",
-    "imgSrc": "6Y1M.gif",
-    "imgAlt": "someone drowning"
+    "imgSrc": "world-map.gif",
+    "imgAlt": "map being uncovered"
   },
   {
     "id": 2,
     "topic": "Intricate turn-based combat",
     "description": "Carefully plan your moves to fight off deadly opponents.",
     "imgSrc": "combat-feature.gif",
-    "imgAlt": "someone drowning"
+    "imgAlt": "turn-based combat"
   },
   {
     "id": 3,
     "topic": "Unbelieveable Magic",
     "description": "Gather the four types of elemental creatures - fire, water, wind, and earth - and combine them in different ways for some of the most awe-inspiring magical spells ever seen.",
     "imgSrc": "skills-feature.gif",
-    "imgAlt": "someone drowning"
+    "imgAlt": "magic"
   }
 ]
