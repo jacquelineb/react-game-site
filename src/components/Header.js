@@ -16,21 +16,6 @@ function Header() {
             Our Team
           </Link>
         </div>
-
-        <div className='social-links'>
-          <a href='#'>
-            <img className='social-icon' src='images/twitter-icon.png' />
-          </a>
-          <a href='#'>
-            <img className='social-icon' src='images/youtube-icon.png' />
-          </a>
-          <a href='#'>
-            <img className='social-icon' src='images/facebook-icon.png' />
-          </a>
-          <a href='#'>
-            <img className='social-icon' src='images/reddit-icon.png' />
-          </a>
-        </div>
       </nav>
     </header>
   );
