@@ -14,7 +14,7 @@ function KeyFeatures() {
       <h1>Key Features</h1>
       {keyFeatures.map((feature) => {
         return (
-          <div>
+          <div key={feature.id}>
             <p>
               <span>{feature.topic}: </span>
               {feature.description}
