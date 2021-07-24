@@ -9,6 +9,8 @@
   color: goldenrod;
   font-family:'Times New Roman', Times, serif;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
 }
 

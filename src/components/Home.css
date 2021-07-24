@@ -1,15 +1,24 @@
 .intro {
   margin-bottom: 60px;
+  max-width: 1270px;
+  margin: 0 auto;
 }
 
 .game-art {
   display: block;
-  height: 750px;
   margin: auto;
+  width: 100%;
 }
 
 .game-quote {
   font-size: 24px;
   font-family: GoldenSun;
   padding: 20px;
+}
+
+
+@media only screen and (max-width: 880px) {
+  .game-quote {
+    font-size: 16px;
+  }
 }
