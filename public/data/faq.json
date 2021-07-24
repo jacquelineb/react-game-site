@@ -1,12 +1,12 @@
 [
   {
     "id" : 0,
-    "question" : "When will the game release?",
+    "question" : "When will Golden Sun release?",
     "answer" : "August 1, 2001"
   },
   {
     "id" : 1,
-    "question" : "How much will the game cost on release?",
+    "question" : "How much will the game cost?",
     "answer" : "$39.99"
   },
   {
@@ -32,6 +32,6 @@
   {
     "id" : 6,
     "question" : "Who's developing Golden Sun?",
-    "answer" : "Camelot Software"
+    "answer" : "Camelot Software Planning"
   }
 ]
