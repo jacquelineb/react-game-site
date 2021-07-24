@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-game-site/static/css/main.c1543bc3.chunk.css",
+    "main.js": "/react-game-site/static/js/main.33de7fbc.chunk.js",
+    "main.js.map": "/react-game-site/static/js/main.33de7fbc.chunk.js.map",
+    "runtime-main.js": "/react-game-site/static/js/runtime-main.7893769b.js",
+    "runtime-main.js.map": "/react-game-site/static/js/runtime-main.7893769b.js.map",
+    "static/js/2.91f4524f.chunk.js": "/react-game-site/static/js/2.91f4524f.chunk.js",
+    "static/js/2.91f4524f.chunk.js.map": "/react-game-site/static/js/2.91f4524f.chunk.js.map",
+    "index.html": "/react-game-site/index.html",
+    "static/css/main.c1543bc3.chunk.css.map": "/react-game-site/static/css/main.c1543bc3.chunk.css.map",
+    "static/js/2.91f4524f.chunk.js.LICENSE.txt": "/react-game-site/static/js/2.91f4524f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react-game-site/static/media/GoldenSun.d63d9c8e.ttf",
+    "static/media/gameart.4fa27ffe.jpg": "/react-game-site/static/media/gameart.4fa27ffe.jpg",
+    "static/media/golden_sun_logo.27ded6bb.png": "/react-game-site/static/media/golden_sun_logo.27ded6bb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7893769b.js",
+    "static/js/2.91f4524f.chunk.js",
+    "static/css/main.c1543bc3.chunk.css",
+    "static/js/main.33de7fbc.chunk.js"
+  ]
+}
