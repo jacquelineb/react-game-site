@@ -1,0 +1,15 @@
+.intro {
+  margin-bottom: 60px;
+}
+
+.game-art {
+  display: block;
+  height: 750px;
+  margin: auto;
+}
+
+.game-quote {
+  font-size: 24px;
+  font-family: GoldenSun;
+  padding: 20px;
+}

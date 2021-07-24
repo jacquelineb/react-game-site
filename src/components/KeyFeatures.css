@@ -1,0 +1,53 @@
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: goldenrod;
+  width: 850px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+
+.features-header,
+.feature {
+  border: 2px solid goldenrod;
+  background-color: brown;
+}
+
+.features-header {
+  height: 60px;
+  padding-top: 30px;
+  width: 100%;
+}
+
+
+.feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-desc {
+  max-width: 40%;
+  padding: 10px;
+}
+
+.feature-img {
+  height: 300px;
+  width: 450px;
+}
+
+.topic {
+  font-weight: bold;
+  text-decoration: underline;
+}

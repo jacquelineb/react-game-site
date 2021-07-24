@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from '../assets/images/logo/golden_sun_logo.png';
 import KeyFeatures from './KeyFeatures';
+import './Home.css';
+import gameart from '../assets/images/gameart.jpg';
 
 function Home() {
   return (
     <>
-      <div className='game-logo'>
-        <img src={logo} alt='game logo' />
+      <div className='intro'>
+        <img className='game-art' src={gameart} alt='golden sun game art' />
+        <p className='game-quote'>In a dark time, an epic adventure dawns...</p>
       </div>
-      <p>In a dark time, an epic adventure dawns...</p>
       <KeyFeatures />
     </>
   );

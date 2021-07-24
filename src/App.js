@@ -7,14 +7,16 @@ import About from './components/About';
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route path='/faq' component={Faq} />
-        <Route path='/about' component={About} />
-      </Switch>
-    </Router>
+    <div className='App'>
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/faq' component={Faq} />
+          <Route path='/about' component={About} />
+        </Switch>
+      </Router>
+    </div>
   );
 }
 

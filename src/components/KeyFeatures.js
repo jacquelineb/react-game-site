@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './KeyFeatures.css';
 
 function KeyFeatures() {
   const [keyFeatures, setKeyFeatures] = useState([]);
@@ -10,16 +11,19 @@ function KeyFeatures() {
   }, []);
 
   return (
-    <section>
-      <h1>Key Features</h1>
-      {keyFeatures.map((feature) => {
+    <section className='features'>
+      <h1 className='features-header'>Key Features</h1>
+      {keyFeatures.map((feature, idx) => {
         return (
-          <div key={feature.id}>
-            <p>
-              <span>{feature.topic}: </span>
-              {feature.description}
+          <div className={`feature${idx % 2 !== 0 ? ' row-reverse' : ''}`} key={feature.id}>
+            <p className='feature-desc'>
+              <span className='topic'>{feature.topic}</span>: {feature.description}
             </p>
-            <img src={`data/images/features/${feature.imgSrc}`} alt={feature.imgAlt} />
+            <img
+              className='feature-img'
+              src={`data/images/features/${feature.imgSrc}`}
+              alt={feature.imgAlt}
+            />
           </div>
         );
       })}
